@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table{
+    
+    display: flex;
+    flex-direction: column;
+}
+table th{
+    text-align: left;
+    background-color: plum;
+    color: white;
+    padding: 4px 30px 4px 8px;
+    text-align: center;
+}
+#studentTableBody{
+    border: 1px solid lightgrey;
+    padding: 4px 8px;
+    display: flex
+    flex-direction: column;
+    
+}
+
